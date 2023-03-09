@@ -27,7 +27,7 @@ import {
 } from "./pages";
 
 const App = () => {
-  const activeMenu = true;
+  const { activeMenu } = useStateContext();
 
   return (
     <div>
